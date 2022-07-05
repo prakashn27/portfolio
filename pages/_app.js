@@ -20,6 +20,7 @@ export default function Nextra({ Component, pageProps }) {
           type="font/woff2"
           crossOrigin="anonymous"
         />
+        <script defer data-domain="prakashn.com" src="https://plausible.io/js/plausible.js"></script>
       </Head>
       <Component {...pageProps} />
     </>
